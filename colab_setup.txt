@@ -1,0 +1,7 @@
+# Colab notebook steps
+!pip install torch torchvision matplotlib scikit-learn
+!git clone https://github.com/your-repo/covid-ct-ensemble.git
+%cd covid-ct-ensemble
+!python main.py
+!python eval.py
+!python run_gradcam.py
